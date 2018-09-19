@@ -1,6 +1,6 @@
 % run_calc_srf(t_gm);
 
-addpath ~/Work/Airs/l1c_freq_adjust/calc_airs_freq
+addpath ../l1c_freq_adjust/calc_airs_freq
 
 % % Grating temperature
 % t_gm = 155.1325; 
@@ -13,7 +13,7 @@ t_gm = 155.1325;
 Tef= 156.339; 
 
 % Get mean yoff
-load ~/Work/Combined_sensors/Final_analysis/yoff_desc_area_weighted_2016
+load yoff_desc_area_weighted_2016
 yoff = yoff_desc_area_weighted_2016;
 % yoff = yoff + 0.3;
 width_mul = 1.0;
