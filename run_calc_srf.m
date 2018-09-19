@@ -24,12 +24,13 @@ ab = get_ab_state(datetime(2016,1,1));
 
 calc_srf(t_gm,Tef,yoff,ab,'test2',1.0);
 
-sfile = 'srftables_m140f_withfake_mar08.hdf';
-chanid = hdfread(sfile,'chanid');
-freq   = hdfread(sfile,'freq');
-width  = hdfread(sfile,'width');
-fwgrid = hdfread(sfile,'fwgrid');
-srfval = hdfread(sfile,'srfval');
+% For testing, put proper path in for sfile
+% sfile = 'srftables_m140f_withfake_mar08.hdf';
+% chanid = hdfread(sfile,'chanid');
+% freq   = hdfread(sfile,'freq');
+% width  = hdfread(sfile,'width');
+% fwgrid = hdfread(sfile,'fwgrid');
+% srfval = hdfread(sfile,'srfval');
 
 
           
